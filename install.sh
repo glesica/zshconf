@@ -15,3 +15,4 @@ ln -s "$PWD/init.vim" "$HOME/.config/nvim/init.vim" || echo "init.vim already ex
 ln -s "$PWD/zshrc" "$HOME/.zshrc" || echo ".zshrc already exists"
 ln -s "$PWD/zshalias" "$HOME/.zshalias" || echo ".zshalias already exists"
 ln -s "$PWD/zshpath" "$HOME/.zshpath" || echo ".zshpath already exists"
+ln -s "$PWD/profile" "$HOME/.profile" || echo ".profile already exists"
