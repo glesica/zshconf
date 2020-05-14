@@ -1,2 +1,5 @@
-alias vim=nvim
+alias dgo='cd "$GOPATH/src"'
+alias vim='nvim'
+alias gcm='git commit'
+alias gst='git status'
 
