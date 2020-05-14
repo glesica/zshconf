@@ -6,3 +6,5 @@ Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
 
+set number
+
