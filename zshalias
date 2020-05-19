@@ -1,5 +1,7 @@
+alias ddev='pub run dart_dev'
 alias dgo='cd "$GOPATH/src"'
 alias vim='nvim'
 alias gcm='git commit'
 alias gst='git status'
+alias master='git checkout master && git pull'
 
