@@ -16,6 +16,7 @@ set autoindent
 set backspace=indent,eol,start
 set expandtab
 set hlsearch
+set incsearch
 set mouse=a
 set nocompatible
 set number
@@ -28,4 +29,6 @@ let g:vimwiki_hl_cb_checked = 2
 let g:vimwiki_hl_headers = 1
 let g:vimwiki_use_mouse = 1
 let g:vimwiki_list = [{'path': '~/Wiki/wiki/'}]
+
+nnoremap <Leader>h :nohlsearch<CR>
 
