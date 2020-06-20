@@ -104,4 +104,5 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.zshalias
 source ~/.zshpath
+source ~/.profile
 
