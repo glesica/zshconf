@@ -11,6 +11,9 @@ curl -fLo \
 # Symlink init.vim
 ln -s "$PWD/init.vim" "$HOME/.config/nvim/init.vim" || echo "init.vim already exists"
 
+# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+
 # Symlink zsh configuration
 ln -s "$PWD/zshrc" "$HOME/.zshrc" || echo ".zshrc already exists"
 ln -s "$PWD/zshalias" "$HOME/.zshalias" || echo ".zshalias already exists"
