@@ -6,6 +6,7 @@ Plug 'jlanzarotta/bufexplorer'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-sensible'
 Plug 'vimwiki/vimwiki'
+Plug 'broadinstitute/vim-wdl'
 
 call plug#end()
 
