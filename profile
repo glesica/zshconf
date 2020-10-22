@@ -1,3 +1,7 @@
+# Private bin/
+
+export PATH="$PATH:$HOME/.local/bin"
+
 # Dart
 
 export PATH="$PATH:$HOME/.pub-cache/bin"
@@ -7,6 +11,10 @@ export PATH="$PATH:$HOME/.pub-cache/bin"
 export GOPATH="$HOME/Golang"
 export PATH="$HOME/Golang/go/bin:$PATH"
 export PATH="$PATH:$HOME/Golang/bin"
+
+# Nim
+
+export PATH="$PATH:$HOME/.nimble/bin"
 
 # Node / NVM
 
