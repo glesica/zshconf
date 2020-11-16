@@ -27,6 +27,7 @@ export PATH="$PATH:./node_modules/.bin"
 export PATH="$PATH:$HOME/.poetry/bin"
 export PIPENV_IGNORE_VIRTUALENVS=1
 export PIPENV_VERBOSITY=-1
+unalias ipython # Fix oh-my-zsh alias
 
 # Rust
 
