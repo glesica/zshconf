@@ -4,4 +4,5 @@ alias vim='nvim'
 alias gcm='git commit'
 alias gst='git status'
 alias master='git checkout master && git pull'
+alias mbrew='arch -x86_64 brew'
 
