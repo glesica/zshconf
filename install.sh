@@ -49,4 +49,6 @@ install_file zshalias "$HOME" "."
 install_file zshpath "$HOME" "."
 install_file profile "$HOME" "."
 install_file init.vim "$HOME/.config/nvim" ""
+install_file gitconfig "$HOME" "."
+install_file gitignore "$HOME" "."
 
