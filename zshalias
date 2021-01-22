@@ -3,6 +3,7 @@ alias dgo='cd "$GOPATH/src"'
 alias vim='nvim'
 alias gcm='git commit'
 alias gst='git status'
+alias gff='git diff'
 alias master='git checkout master && git pull'
 alias mbrew='arch -x86_64 brew'
 
