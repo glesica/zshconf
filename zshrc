@@ -102,6 +102,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Shortcuts for jumping around in the line editor
+bindkey ^f forward-word
+bindkey ^b backward-word
+
 source ~/.zshalias
 source ~/.zshpath
 source ~/.profile
