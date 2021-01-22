@@ -1,0 +1,10 @@
+[user]
+	email = george@lesica.com
+	name = George Lesica
+
+[pull]
+	rebase = false
+[core]
+	excludesFile = ~/.gitignore
+[submodule]
+	recurse = true
