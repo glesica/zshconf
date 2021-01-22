@@ -106,6 +106,9 @@ source $ZSH/oh-my-zsh.sh
 bindkey ^f forward-word
 bindkey ^b backward-word
 
+# Setup autojump
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
 source ~/.zshalias
 source ~/.zshpath
 source ~/.profile
