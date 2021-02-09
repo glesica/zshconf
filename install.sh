@@ -47,6 +47,7 @@ function install_file () {
 install_file zshrc "$HOME" "."
 install_file zshalias "$HOME" "."
 install_file zshpath "$HOME" "."
+install_file zshbrew "$HOME" "."
 install_file profile "$HOME" "."
 install_file init.vim "$HOME/.config/nvim" ""
 install_file gitconfig "$HOME" "."

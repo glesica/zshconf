@@ -1,0 +1,19 @@
+# Configure Homebrew for Apple Silicon
+
+if [[ -d "/opt/homebrew" ]]; then
+    INTEL_PREFIX="/usr/local"
+    M1_PREFIX="/opt/homebrew"
+
+    mkdir -p "$M1_PREFIX/bin"
+    export PATH="$M1_PREFIX/bin:$PATH"
+
+    if [[ ! -d "$M1_PREFIX/Homebrew" ]]; then
+        git clone git@github.com:Homebrew/brew.git "$M1_PREFIX/Hombrew"
+        ln -s "$M1_PREFIX/Homebrew/bin/brew" "$M1_PREFIX/bin/brew"
+    fi
+
+    if [[ -d "$INTEL_PREFIX/Homebrew" ]]; then
+        alias ibrew='arch -x86_64 /usr/local/bin/brew'
+    fi
+fi
+
