@@ -33,3 +33,4 @@ unalias ipython # Fix oh-my-zsh alias
 
 export PATH="$PATH:$HOME/.cargo/bin"
 
+source "$HOME/.cargo/env"
