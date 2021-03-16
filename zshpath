@@ -1,0 +1,8 @@
+# Install Ruby Gems in the user directory
+export GEM_HOME="$HOME/.gem"
+export PATH="$PATH:$GEM_HOME/bin"
+
+export PATH="$PATH:$HOME/Code/flutter/flutter/bin"
+
+export PATH="$PATH:$HOME/Software/Go/go-current/bin"
+
