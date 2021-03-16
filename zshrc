@@ -114,5 +114,7 @@ source ~/.zshpath
 source ~/.zshbrew
 source ~/.profile
 
-[ -f ~/.zshlocal ] && source ~/.zshlocal
+if [[ -f ~/.zshlocal ]]; then
+    source ~/.zshlocal
+fi
 
