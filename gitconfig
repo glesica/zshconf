@@ -8,3 +8,5 @@
 	excludesFile = ~/.gitignore
 [submodule]
 	recurse = true
+[init]
+	defaultBranch = main
