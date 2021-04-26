@@ -120,3 +120,6 @@ if [[ -f ~/.zshlocal ]]; then
     source ~/.zshlocal
 fi
 
+# Opt into Aaron's compiler de-optimizations
+export USER_IS_GEORGE=true
+
