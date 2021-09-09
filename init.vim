@@ -25,6 +25,7 @@ set shiftwidth=4
 set smarttab
 set tabstop=4
 set textwidth=80
+set formatoptions-=t
 
 let g:vimwiki_hl_cb_checked = 2
 let g:vimwiki_hl_headers = 1
