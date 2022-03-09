@@ -5,8 +5,10 @@
 [pull]
 	rebase = false
 [core]
-	excludesFile = ~/.gitignore
+	excludesfile = ~/.gitignore
 [submodule]
 	recurse = true
 [init]
 	defaultBranch = main
+[push]
+	default = simple
