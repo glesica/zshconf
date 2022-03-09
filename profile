@@ -13,7 +13,7 @@ export PATH="$PATH:$HOME/.nimble/bin"
 # Node / NVM
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"
 export PATH="$PATH:./node_modules/.bin"
 
 # Python
@@ -30,4 +30,4 @@ unalias ipython # Fix oh-my-zsh alias
 
 export PATH="$PATH:$HOME/.cargo/bin"
 
-source "$HOME/.cargo/env"
+[ -f "$HOME/.cargo/env" ] && source "$HOME/.cargo/env"
