@@ -9,4 +9,5 @@ alias mainiac='git checkout main && git pull'
 alias ipyt='python3 -m IPython'
 alias yeet='git push'
 alias yoink='git pull'
+alias dockwd='docker run -u $(id -u):$(id -g) -v $PWD:/data -w /data'
 
