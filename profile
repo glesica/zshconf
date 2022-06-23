@@ -18,7 +18,7 @@ export PATH="$PATH:./node_modules/.bin"
 
 # Python
 
-PRIMARY_PYTHON=3.9
+PRIMARY_PYTHON=3.10
 
 export PATH="$PATH:$HOME/.poetry/bin"
 export PATH="$PATH:/Users/george/Library/Python/$PRIMARY_PYTHON/bin"
