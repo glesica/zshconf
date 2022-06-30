@@ -117,7 +117,7 @@ bindkey ^b backward-word
 
 source ~/.zshalias
 source ~/.zshpath
-source ~/.zshbrew
+#source ~/.zshbrew
 source ~/.profile
 
 if [[ -f ~/.zshlocal ]]; then
