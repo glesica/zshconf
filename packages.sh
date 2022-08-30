@@ -7,8 +7,15 @@ set -e
 # ------------------------------------
 
 brew install \
-    neovim \
+    git \
+    go \
     htop \
+    ipython \
+    jq \
+    neovim \
     pandoc \
-    pipenv
+    pipenv \
+    the_silver_searcher \
+    wget \
+    yq
 
