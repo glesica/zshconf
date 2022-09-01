@@ -9,6 +9,7 @@ set -e
 brew install \
     git \
     go \
+    helix \
     htop \
     ipython \
     jq \
