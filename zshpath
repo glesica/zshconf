@@ -6,6 +6,7 @@ export PATH="$PATH:$HOME/Code/flutter/flutter/bin"
 export PATH="$PATH:$HOME/Applications/flutter/bin"
 
 export PATH="/opt/homebrew/bin:$PATH"
+export PATH="$PATH:$HOME/go/bin"
 
 # Google Cloud SDK
 
@@ -17,3 +18,4 @@ fi
 if [ -f "$HOME/.software/google-cloud-sdk/completion.zsh.inc" ]; then
     . "$HOME/.software/google-cloud-sdk/completion.zsh.inc"
 fi
+
