@@ -1,14 +1,15 @@
 [user]
-	email = george@lesica.com
-	name = George Lesica
+    email = george@lesica.com
+    name = George Lesica
 
 [pull]
-	rebase = false
+    rebase = false
 [core]
-	excludesfile = ~/.gitignore
+    excludesfile = ~/.gitignore
 [submodule]
-	recurse = true
+    recurse = true
 [init]
-	defaultBranch = main
+    defaultBranch = main
 [push]
-	default = simple
+    default = simple
+    autoSetupRemote = true
