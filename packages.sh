@@ -8,15 +8,13 @@ set -e
 
 brew install \
     git \
-    go \
+    mise \
     helix \
     htop \
-    ipython \
     jq \
     neovim \
     pandoc \
-    pipenv \
-    the_silver_searcher \
+    ripgrep \
     wget \
     yq
 
