@@ -15,10 +15,6 @@ export PATH="$PATH:$HOME/.nimble/bin"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && source "$NVM_DIR/nvm.sh"
 
-# Python
-
-unalias ipython # Fix oh-my-zsh alias
-
 # Rust
 
 export PATH="$PATH:$HOME/.cargo/bin"
