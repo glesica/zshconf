@@ -13,7 +13,9 @@ brew install \
     htop \
     jq \
     neovim \
+    nushell \
     pandoc \
+    podman \
     ripgrep \
     wget \
     yq
